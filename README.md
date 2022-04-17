@@ -5,7 +5,7 @@
 In this repository we will relize and explain OOP design patterns using `Swift` language!
 
 ***
-###Types of Design Patterns:
+### Types of Design Patterns:
 
 1. Creational patterns
    * `Builder`
