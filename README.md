@@ -14,6 +14,8 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * `Singleton`
 2. Structural patterns
    * `Adapter`
+   * `Bridge`
+   * `Composite`
 
 ***
 ### Summary
@@ -33,3 +35,7 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
 5. `Factory`
    * Abstract factory
 6. `Adapter`
+7. `Bridge`
+8. `Composite`
+   * Composite
+   * Neural Network

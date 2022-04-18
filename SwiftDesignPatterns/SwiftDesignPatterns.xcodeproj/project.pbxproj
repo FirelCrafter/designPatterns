@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743026D3280DB5E10084797A /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743026D2280DB5E10084797A /* Bridge.swift */; };
+		743026D6280DB6ED0084797A /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743026D5280DB6ED0084797A /* Composite.swift */; };
+		743026D8280DB7C70084797A /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743026D7280DB7C70084797A /* NeuralNetwork.swift */; };
 		74C822A3280AD26C00A5A540 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C822A2280AD26C00A5A540 /* main.swift */; };
 		74C822AB280AD2A100A5A540 /* SingleResposibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C822AA280AD2A100A5A540 /* SingleResposibility.swift */; };
 		74C822AD280AD59800A5A540 /* OpenClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C822AC280AD59800A5A540 /* OpenClosedPrinciple.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		743026D2280DB5E10084797A /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		743026D5280DB6ED0084797A /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		743026D7280DB7C70084797A /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
 		74C8229F280AD26C00A5A540 /* SwiftDesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftDesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C822A2280AD26C00A5A540 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		74C822AA280AD2A100A5A540 /* SingleResposibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResposibility.swift; sourceTree = "<group>"; };
@@ -62,6 +68,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		743026D1280DB5CE0084797A /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				743026D2280DB5E10084797A /* Bridge.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		743026D4280DB6E10084797A /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				743026D5280DB6ED0084797A /* Composite.swift */,
+				743026D7280DB7C70084797A /* NeuralNetwork.swift */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
 		74C82296280AD26C00A5A540 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +172,8 @@
 		74C822D9280C261B00A5A540 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				743026D4280DB6E10084797A /* Composite */,
+				743026D1280DB5CE0084797A /* Bridge */,
 				74C822DA280C262500A5A540 /* Adapter */,
 			);
 			path = Structural;
@@ -222,6 +247,7 @@
 			files = (
 				74C822DC280C262F00A5A540 /* Adapter.swift in Sources */,
 				74C822D0280C25C600A5A540 /* AbstractFactory.swift in Sources */,
+				743026D3280DB5E10084797A /* Bridge.swift in Sources */,
 				74C822B1280AEA5F00A5A540 /* InterfaceSegregation.swift in Sources */,
 				74C822AF280AE60C00A5A540 /* LiskovSubstitution.swift in Sources */,
 				74C822BA280B315C00A5A540 /* FacetedBuilder.swift in Sources */,
@@ -229,10 +255,12 @@
 				74C822B3280AF2B900A5A540 /* DependencyInversion.swift in Sources */,
 				74C822D6280C260000A5A540 /* Singleton.swift in Sources */,
 				74C822AB280AD2A100A5A540 /* SingleResposibility.swift in Sources */,
+				743026D6280DB6ED0084797A /* Composite.swift in Sources */,
 				74C822AD280AD59800A5A540 /* OpenClosedPrinciple.swift in Sources */,
 				74C822A3280AD26C00A5A540 /* main.swift in Sources */,
 				74C822D8280C260C00A5A540 /* Capitals.swift in Sources */,
 				74C822D3280C25E500A5A540 /* CopyConstructor.swift in Sources */,
+				743026D8280DB7C70084797A /* NeuralNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
