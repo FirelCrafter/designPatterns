@@ -16,6 +16,7 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * `Adapter`
    * `Bridge`
    * `Composite`
+   * `Decorator`
 
 ***
 ### Summary
@@ -39,3 +40,7 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
 8. `Composite`
    * Composite
    * Neural Network
+9. `Decorator`
+   * Custom String Builder
+   * Multiple Inharitance
+   * Dynamic (+ Static) Decorator
