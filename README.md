@@ -18,6 +18,7 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * `Composite`
    * `Decorator`
    * `Façade`
+   * `Flyweight`
 
 ***
 ### Summary
@@ -46,3 +47,4 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * Multiple Inharitance
    * Dynamic (+ Static) Decorator
 10. `Façade`
+11. `Flyweight`
