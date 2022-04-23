@@ -17,6 +17,7 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * `Bridge`
    * `Composite`
    * `Decorator`
+   * `Façade`
 
 ***
 ### Summary
@@ -44,3 +45,4 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * Custom String Builder
    * Multiple Inharitance
    * Dynamic (+ Static) Decorator
+10. `Façade`

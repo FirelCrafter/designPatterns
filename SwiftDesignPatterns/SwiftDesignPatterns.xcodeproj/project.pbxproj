@@ -13,6 +13,7 @@
 		747B84F628125EB000887045 /* CustomStringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747B84F528125EB000887045 /* CustomStringBuilder.swift */; };
 		747B84F8281260FE00887045 /* MultipleInharitance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747B84F7281260FE00887045 /* MultipleInharitance.swift */; };
 		747B84FA2812624200887045 /* DynamicDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747B84F92812624200887045 /* DynamicDecorator.swift */; };
+		747B85092813C97B00887045 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747B85082813C97B00887045 /* Facade.swift */; };
 		74C822A3280AD26C00A5A540 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C822A2280AD26C00A5A540 /* main.swift */; };
 		74C822AB280AD2A100A5A540 /* SingleResposibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C822AA280AD2A100A5A540 /* SingleResposibility.swift */; };
 		74C822AD280AD59800A5A540 /* OpenClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C822AC280AD59800A5A540 /* OpenClosedPrinciple.swift */; };
@@ -47,6 +48,7 @@
 		747B84F528125EB000887045 /* CustomStringBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStringBuilder.swift; sourceTree = "<group>"; };
 		747B84F7281260FE00887045 /* MultipleInharitance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleInharitance.swift; sourceTree = "<group>"; };
 		747B84F92812624200887045 /* DynamicDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicDecorator.swift; sourceTree = "<group>"; };
+		747B85082813C97B00887045 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		74C8229F280AD26C00A5A540 /* SwiftDesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftDesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C822A2280AD26C00A5A540 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		74C822AA280AD2A100A5A540 /* SingleResposibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResposibility.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 				747B84F92812624200887045 /* DynamicDecorator.swift */,
 			);
 			path = Decorator;
+			sourceTree = "<group>";
+		};
+		747B85072813C96200887045 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				747B85082813C97B00887045 /* Facade.swift */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 		74C82296280AD26C00A5A540 = {
@@ -188,6 +198,7 @@
 		74C822D9280C261B00A5A540 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				747B85072813C96200887045 /* Facade */,
 				747B84F428125E8400887045 /* Decorator */,
 				743026D4280DB6E10084797A /* Composite */,
 				743026D1280DB5CE0084797A /* Bridge */,
@@ -273,6 +284,7 @@
 				74C822D6280C260000A5A540 /* Singleton.swift in Sources */,
 				74C822AB280AD2A100A5A540 /* SingleResposibility.swift in Sources */,
 				743026D6280DB6ED0084797A /* Composite.swift in Sources */,
+				747B85092813C97B00887045 /* Facade.swift in Sources */,
 				74C822AD280AD59800A5A540 /* OpenClosedPrinciple.swift in Sources */,
 				747B84F8281260FE00887045 /* MultipleInharitance.swift in Sources */,
 				74C822A3280AD26C00A5A540 /* main.swift in Sources */,
