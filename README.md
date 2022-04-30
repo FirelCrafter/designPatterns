@@ -19,6 +19,7 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * `Decorator`
    * `Façade`
    * `Flyweight`
+   * `Proxy`
 
 ***
 ### Summary
@@ -48,3 +49,6 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * Dynamic (+ Static) Decorator
 10. `Façade`
 11. `Flyweight`
+12. `Proxy`
+   * Protection Proxy
+   * Property Proxy
