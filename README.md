@@ -20,6 +20,8 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * `Façade`
    * `Flyweight`
    * `Proxy`
+3. Behavioral patterns
+   * `Chain of responsibility`
 
 ***
 ### Summary
@@ -52,3 +54,6 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
 12. `Proxy`
    * Protection Proxy
    * Property Proxy
+13. `Chain of responsibility`
+   * Method chain
+   * Broker chain

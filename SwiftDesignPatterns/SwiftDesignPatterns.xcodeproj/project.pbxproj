@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		741F53C1281D004900D6039F /* ProtectionProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F53C0281D004900D6039F /* ProtectionProxy.swift */; };
 		741F53C3281D025000D6039F /* PropertyProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F53C2281D024F00D6039F /* PropertyProxy.swift */; };
+		741F53C7281D08FE00D6039F /* MethodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F53C6281D08FE00D6039F /* MethodChain.swift */; };
+		741F53C9281D0E2B00D6039F /* BrokerChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F53C8281D0E2B00D6039F /* BrokerChain.swift */; };
 		743026D3280DB5E10084797A /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743026D2280DB5E10084797A /* Bridge.swift */; };
 		743026D6280DB6ED0084797A /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743026D5280DB6ED0084797A /* Composite.swift */; };
 		743026D8280DB7C70084797A /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743026D7280DB7C70084797A /* NeuralNetwork.swift */; };
@@ -48,6 +50,8 @@
 /* Begin PBXFileReference section */
 		741F53C0281D004900D6039F /* ProtectionProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectionProxy.swift; sourceTree = "<group>"; };
 		741F53C2281D024F00D6039F /* PropertyProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyProxy.swift; sourceTree = "<group>"; };
+		741F53C6281D08FE00D6039F /* MethodChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodChain.swift; sourceTree = "<group>"; };
+		741F53C8281D0E2B00D6039F /* BrokerChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerChain.swift; sourceTree = "<group>"; };
 		743026D2280DB5E10084797A /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		743026D5280DB6ED0084797A /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		743026D7280DB7C70084797A /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
@@ -91,6 +95,23 @@
 				741F53C2281D024F00D6039F /* PropertyProxy.swift */,
 			);
 			path = Proxy;
+			sourceTree = "<group>";
+		};
+		741F53C4281D08B900D6039F /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				741F53C5281D08D000D6039F /* ChainOfResponsibility */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		741F53C5281D08D000D6039F /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				741F53C6281D08FE00D6039F /* MethodChain.swift */,
+				741F53C8281D0E2B00D6039F /* BrokerChain.swift */,
+			);
+			path = ChainOfResponsibility;
 			sourceTree = "<group>";
 		};
 		743026D1280DB5CE0084797A /* Bridge */ = {
@@ -156,6 +177,7 @@
 		74C822A1280AD26C00A5A540 /* SwiftDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				741F53C4281D08B900D6039F /* Behavioral */,
 				74C822D9280C261B00A5A540 /* Structural */,
 				74C822CD280C25A000A5A540 /* Creational */,
 				74C822A9280AD27500A5A540 /* SOLID */,
@@ -301,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741F53C9281D0E2B00D6039F /* BrokerChain.swift in Sources */,
 				74C822DC280C262F00A5A540 /* Adapter.swift in Sources */,
 				74C822D0280C25C600A5A540 /* AbstractFactory.swift in Sources */,
 				743026D3280DB5E10084797A /* Bridge.swift in Sources */,
@@ -316,6 +339,7 @@
 				747B85092813C97B00887045 /* Facade.swift in Sources */,
 				741F53C3281D025000D6039F /* PropertyProxy.swift in Sources */,
 				74C822AD280AD59800A5A540 /* OpenClosedPrinciple.swift in Sources */,
+				741F53C7281D08FE00D6039F /* MethodChain.swift in Sources */,
 				747B84F8281260FE00887045 /* MultipleInharitance.swift in Sources */,
 				741F53C1281D004900D6039F /* ProtectionProxy.swift in Sources */,
 				74C822A3280AD26C00A5A540 /* main.swift in Sources */,
