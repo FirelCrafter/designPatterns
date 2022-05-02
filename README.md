@@ -23,6 +23,7 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
 3. Behavioral patterns
    * `Chain of responsibility`
    * `Command`
+   * `Interpreter`
 
 ***
 ### Summary
@@ -59,3 +60,6 @@ In this repository we will relize and explain OOP design patterns using `Swift` 
    * Method chain
    * Broker chain
 14. `Command`
+15. `Interpreter`
+   * Lexing interpreter
+   * Parsing interpreter

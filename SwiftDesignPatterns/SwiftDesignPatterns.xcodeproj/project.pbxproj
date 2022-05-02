@@ -21,6 +21,7 @@
 		747B85092813C97B00887045 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747B85082813C97B00887045 /* Facade.swift */; };
 		747B850C2813CE0300887045 /* FlyWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747B850B2813CE0300887045 /* FlyWeight.swift */; };
 		747B850E2813D9FB00887045 /* TextFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747B850D2813D9FB00887045 /* TextFormatting.swift */; };
+		748B24FB281FB5B60013A54E /* LexingInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B24FA281FB5B60013A54E /* LexingInterpreter.swift */; };
 		74C822A3280AD26C00A5A540 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C822A2280AD26C00A5A540 /* main.swift */; };
 		74C822AB280AD2A100A5A540 /* SingleResposibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C822AA280AD2A100A5A540 /* SingleResposibility.swift */; };
 		74C822AD280AD59800A5A540 /* OpenClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C822AC280AD59800A5A540 /* OpenClosedPrinciple.swift */; };
@@ -63,6 +64,7 @@
 		747B85082813C97B00887045 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		747B850B2813CE0300887045 /* FlyWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeight.swift; sourceTree = "<group>"; };
 		747B850D2813D9FB00887045 /* TextFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatting.swift; sourceTree = "<group>"; };
+		748B24FA281FB5B60013A54E /* LexingInterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexingInterpreter.swift; sourceTree = "<group>"; };
 		74C8229F280AD26C00A5A540 /* SwiftDesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftDesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C822A2280AD26C00A5A540 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		74C822AA280AD2A100A5A540 /* SingleResposibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResposibility.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		741F53C4281D08B900D6039F /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				748B24F9281FB5340013A54E /* Interpreter */,
 				741F53CA281D5C0600D6039F /* Command */,
 				741F53C5281D08D000D6039F /* ChainOfResponsibility */,
 			);
@@ -167,6 +170,14 @@
 				747B850D2813D9FB00887045 /* TextFormatting.swift */,
 			);
 			path = FlyWeight;
+			sourceTree = "<group>";
+		};
+		748B24F9281FB5340013A54E /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				748B24FA281FB5B60013A54E /* LexingInterpreter.swift */,
+			);
+			path = Interpreter;
 			sourceTree = "<group>";
 		};
 		74C82296280AD26C00A5A540 = {
@@ -339,6 +350,7 @@
 				74C822D0280C25C600A5A540 /* AbstractFactory.swift in Sources */,
 				743026D3280DB5E10084797A /* Bridge.swift in Sources */,
 				74C822B1280AEA5F00A5A540 /* InterfaceSegregation.swift in Sources */,
+				748B24FB281FB5B60013A54E /* LexingInterpreter.swift in Sources */,
 				741F53CC281D5C1500D6039F /* Command.swift in Sources */,
 				74C822AF280AE60C00A5A540 /* LiskovSubstitution.swift in Sources */,
 				74C822BA280B315C00A5A540 /* FacetedBuilder.swift in Sources */,
